@@ -5,6 +5,7 @@ dependencies:
     - field.field.paragraph.media.field_media
     - paragraphs.paragraphs_type.media
   module:
+    - entity_browser_entity_form
     - inline_entity_form
 id: paragraph.media.default
 targetEntityType: paragraph
@@ -21,7 +22,9 @@ content:
       allow_existing: true
       match_operator: CONTAINS
       override_labels: false
-    third_party_settings: {  }
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: media_browser
     type: inline_entity_form_complex
 hidden:
   created: true
