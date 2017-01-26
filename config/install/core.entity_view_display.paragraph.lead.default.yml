@@ -4,6 +4,22 @@ dependencies:
   config:
     - field.field.paragraph.lead.field_lead
     - paragraphs.paragraphs_type.lead
+  module:
+    - ds
+third_party_settings:
+  ds:
+    layout:
+      id: pattern_shila_lead
+      path: ''
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        pattern:
+          field_templates: only_content
+    regions:
+      content:
+        - field_lead
 id: paragraph.lead.default
 targetEntityType: paragraph
 bundle: lead

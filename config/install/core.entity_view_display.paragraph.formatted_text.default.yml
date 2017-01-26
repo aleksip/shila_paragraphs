@@ -5,7 +5,22 @@ dependencies:
     - field.field.paragraph.formatted_text.field_formatted_text
     - paragraphs.paragraphs_type.formatted_text
   module:
+    - ds
     - text
+third_party_settings:
+  ds:
+    layout:
+      id: pattern_shila_formatted_text
+      path: ''
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        pattern:
+          field_templates: only_content
+    regions:
+      content:
+        - field_formatted_text
 id: paragraph.formatted_text.default
 targetEntityType: paragraph
 bundle: formatted_text
