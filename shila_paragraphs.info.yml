@@ -4,11 +4,9 @@ core: 8.x
 dependencies:
   - ds
   - entity_browser_entity_form
-  - entity_reference_revisions
   - field
   - inline_entity_form
   - media_entity
-  - node
   - paragraphs
   - shila_media
   - text
