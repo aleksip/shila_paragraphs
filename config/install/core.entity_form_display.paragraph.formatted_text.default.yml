@@ -3,7 +3,6 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.formatted_text.field_content
-    - field.field.paragraph.formatted_text.field_formatted_text
     - paragraphs.paragraphs_type.formatted_text
   module:
     - text
@@ -14,13 +13,6 @@ mode: default
 content:
   field_content:
     weight: 1
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-  field_formatted_text:
-    weight: 0
     settings:
       rows: 5
       placeholder: ''
