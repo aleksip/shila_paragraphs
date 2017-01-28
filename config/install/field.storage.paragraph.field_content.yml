@@ -3,13 +3,13 @@ status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_code
-field_name: field_code
+    - text
+id: paragraph.field_content
+field_name: field_content
 entity_type: paragraph
-type: string_long
-settings:
-  case_sensitive: false
-module: core
+type: text_long
+settings: {  }
+module: text
 locked: false
 cardinality: 1
 translatable: true

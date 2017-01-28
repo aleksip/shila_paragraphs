@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content
+    - paragraphs.paragraphs_type.formatted_text
+  module:
+    - text
+id: paragraph.formatted_text.field_content
+field_name: field_content
+entity_type: paragraph
+bundle: formatted_text
+label: Content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

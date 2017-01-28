@@ -2,8 +2,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.code.field_code
     - field.field.paragraph.code.field_code_language
+    - field.field.paragraph.code.field_plain_content
     - paragraphs.paragraphs_type.code
   module:
     - ds
@@ -19,21 +19,15 @@ third_party_settings:
         pattern:
           field_templates: only_content
     regions:
-      content:
-        - field_code
       language:
         - field_code_language
+      content:
+        - field_plain_content
 id: paragraph.code.default
 targetEntityType: paragraph
 bundle: code
 mode: default
 content:
-  field_code:
-    weight: 0
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: basic_string
   field_code_language:
     weight: 1
     label: hidden
@@ -41,6 +35,12 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+  field_plain_content:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
 hidden:
   created: true
   uid: true

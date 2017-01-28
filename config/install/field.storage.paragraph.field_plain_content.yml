@@ -3,8 +3,8 @@ status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_lead
-field_name: field_lead
+id: paragraph.field_plain_content
+field_name: field_plain_content
 entity_type: paragraph
 type: string_long
 settings:

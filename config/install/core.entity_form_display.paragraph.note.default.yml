@@ -2,20 +2,22 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.lead.field_plain_content
-    - paragraphs.paragraphs_type.lead
-id: paragraph.lead.default
+    - field.field.paragraph.note.field_content
+    - paragraphs.paragraphs_type.note
+  module:
+    - text
+id: paragraph.note.default
 targetEntityType: paragraph
-bundle: lead
+bundle: note
 mode: default
 content:
-  field_plain_content:
-    weight: 1
+  field_content:
+    weight: 0
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: string_textarea
+    type: text_textarea
 hidden:
   created: true
   status: true

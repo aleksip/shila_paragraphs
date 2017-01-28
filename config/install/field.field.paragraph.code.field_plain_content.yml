@@ -2,13 +2,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_code
+    - field.storage.paragraph.field_plain_content
     - paragraphs.paragraphs_type.code
-id: paragraph.code.field_code
-field_name: field_code
+id: paragraph.code.field_plain_content
+field_name: field_plain_content
 entity_type: paragraph
 bundle: code
-label: Code
+label: Content
 description: ''
 required: false
 translatable: false

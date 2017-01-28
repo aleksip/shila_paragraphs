@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_lead
+    - field.storage.paragraph.field_plain_content
     - paragraphs.paragraphs_type.lead
-id: paragraph.lead.field_lead
-field_name: field_lead
+id: paragraph.lead.field_plain_content
+field_name: field_plain_content
 entity_type: paragraph
 bundle: lead
-label: Lead
+label: Content
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

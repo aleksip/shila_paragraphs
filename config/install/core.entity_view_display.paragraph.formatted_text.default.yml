@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.formatted_text.field_content
     - field.field.paragraph.formatted_text.field_formatted_text
     - paragraphs.paragraphs_type.formatted_text
   module:
@@ -20,14 +21,21 @@ third_party_settings:
           field_templates: only_content
     regions:
       content:
+        - field_content
         - field_formatted_text
 id: paragraph.formatted_text.default
 targetEntityType: paragraph
 bundle: formatted_text
 mode: default
 content:
-  field_formatted_text:
+  field_content:
     weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_formatted_text:
+    weight: 1
     label: hidden
     settings: {  }
     third_party_settings: {  }

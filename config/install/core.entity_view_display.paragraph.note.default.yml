@@ -2,14 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.lead.field_plain_content
-    - paragraphs.paragraphs_type.lead
+    - field.field.paragraph.note.field_content
+    - paragraphs.paragraphs_type.note
   module:
     - ds
+    - text
 third_party_settings:
   ds:
     layout:
-      id: pattern_shila_lead
+      id: pattern_shila_note
       path: ''
       library: ''
       disable_css: false
@@ -19,18 +20,18 @@ third_party_settings:
           field_templates: only_content
     regions:
       content:
-        - field_plain_content
-id: paragraph.lead.default
+        - field_content
+id: paragraph.note.default
 targetEntityType: paragraph
-bundle: lead
+bundle: note
 mode: default
 content:
-  field_plain_content:
-    weight: 1
+  field_content:
+    weight: 0
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: basic_string
+    type: text_default
 hidden:
   created: true
   uid: true
