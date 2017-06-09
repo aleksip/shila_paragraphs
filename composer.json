@@ -1,0 +1,22 @@
+{
+    "name": "aleksip/shila_paragraphs",
+    "type": "drupal-module",
+    "description": "Provides Paragraphs types",
+    "keywords": ["drupal", "module", "features"],
+    "homepage": "https://github.com/aleksip/shila_paragraphs",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Aleksi Peebles"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "aleksip/shila_media": "dev-master",
+        "drupal/ds": "~3.0",
+        "drupal/entity_browser": "~1.0",
+        "drupal/inline_entity_form": "~1.0",
+        "drupal/media_entity": "~1.6",
+        "drupal/paragraphs": "~1.1"
+    }
+}
