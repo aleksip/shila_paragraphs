@@ -3,3 +3,6 @@ status: true
 dependencies: {  }
 id: formatted_text
 label: 'Formatted text'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

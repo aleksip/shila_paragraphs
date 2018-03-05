@@ -26,6 +26,7 @@ content:
       entity_browser_entity_form:
         entity_browser_id: media_browser
     type: inline_entity_form_complex
+    region: content
 hidden:
   created: true
   status: true

@@ -3,3 +3,6 @@ status: true
 dependencies: {  }
 id: lead
 label: Lead
+icon_uuid: null
+description: null
+behavior_plugins: {  }

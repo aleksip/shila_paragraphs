@@ -35,12 +35,14 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
   field_plain_content:
     weight: 2
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: basic_string
+    region: content
 hidden:
   created: true
   uid: true
