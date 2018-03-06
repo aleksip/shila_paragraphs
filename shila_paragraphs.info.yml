@@ -10,5 +10,7 @@ dependencies:
   - paragraphs
   - shila_media
   - text
+  - ui_patterns_layouts
+  - ui_patterns_library
 package: Shila
 description: 'Provides Paragraphs types.'
